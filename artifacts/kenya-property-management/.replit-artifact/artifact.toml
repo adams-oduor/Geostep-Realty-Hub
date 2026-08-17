@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Kenya Property Management"
+description = "A responsive property management website for a Kenya-based small business, showcasing managed homes and rentals, explaining owner and tenant services, and capturing property enquiries."
+version = "1.0.0"
+id = "artifacts/kenya-property-management"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19504
+
+[services.development]
+run = "pnpm --filter @workspace/kenya-property-management run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kenya-property-management", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kenya-property-management/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19504"
+BASE_PATH = "/"
