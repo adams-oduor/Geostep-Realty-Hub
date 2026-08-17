@@ -87,7 +87,7 @@ function BrandMark({ dark = false }: { dark?: boolean }) {
       </span>
       <span className="leading-none">
         <span className="block font-display text-[1.18rem] italic tracking-[-.025em]">Geostep</span>
-        <span className={`block pt-1 font-mono text-[.54rem] uppercase tracking-[.17em] ${dark ? 'text-[#efbd5c]' : 'text-[#a66743]'}`}>Property</span>
+        <span className={`block pt-1 font-mono text-[.54rem] uppercase tracking-[.17em] ${dark ? 'text-[#efbd5c]' : 'text-[#a66743]'}`}>Realty</span>
         <span className={`block pt-1 font-mono text-[.42rem] uppercase tracking-[.1em] ${dark ? 'text-[#aaa8ad]' : 'text-[#696775]'}`}>by Geostep Engineers Ltd</span>
       </span>
     </a>
@@ -199,22 +199,22 @@ function Home() {
         <Nav open={menuOpen} setOpen={setMenuOpen} />
         <div className="mx-auto grid min-h-[760px] max-w-[1240px] items-end gap-12 px-5 pb-16 pt-36 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-24">
           <div className="relative z-10 max-w-2xl">
-            <p className="hero-line eyebrow mb-7 text-[#efbd5c]">Family-run property care in Kenya</p>
+            <p className="hero-line eyebrow mb-7 text-[#efbd5c]">Thoughtful property care in Kenya</p>
             <h1 className="font-display text-[clamp(3.7rem,9vw,8.6rem)] leading-[.88] tracking-[-.065em]">
               <span className="hero-line block">Good homes.</span>
               <span className="hero-line block italic text-[#efbd5c]">Properly kept.</span>
               <span className="hero-line block">Thoughtfully found.</span>
             </h1>
-            <p className="hero-line mt-9 max-w-md text-base leading-7 text-[#d8d4cc] sm:text-lg">Geostep Property is the family-run property management arm of Geostep Engineers Limited — looking after homes, tenants and owners with a practical eye for detail.</p>
+            <p className="hero-line mt-9 max-w-md text-base leading-7 text-[#d8d4cc] sm:text-lg">Geostep Realty is the property management arm of Geostep Engineers Limited — looking after homes, tenants and owners with a practical eye for detail.</p>
             <div className="hero-line mt-9 flex flex-wrap items-center gap-4">
               <a href="#homes" className="inline-flex items-center gap-3 rounded-full bg-[#efbd5c] px-6 py-4 text-xs font-extrabold uppercase tracking-[.13em] text-[#25283d] transition-transform hover:-translate-y-1" data-testid="link-hero-view-homes">Explore available homes <ArrowDownRight size={16} /></a>
-              <a href="#story" className="inline-flex items-center gap-2 px-2 py-3 text-xs font-bold text-[#d8d4cc] underline decoration-[#efbd5c] underline-offset-8 hover:text-[#efbd5c]" data-testid="link-hero-story">Why Geostep Property <ArrowUpRight size={14} /></a>
+              <a href="#story" className="inline-flex items-center gap-2 px-2 py-3 text-xs font-bold text-[#d8d4cc] underline decoration-[#efbd5c] underline-offset-8 hover:text-[#efbd5c]" data-testid="link-hero-story">Why Geostep Realty <ArrowUpRight size={14} /></a>
             </div>
           </div>
           <div className="relative mx-auto w-full max-w-[530px] lg:mb-[-20px]">
             <div className="absolute -left-7 top-16 z-20 hidden w-36 rounded-xl border border-white/15 bg-[#31344b]/85 p-4 backdrop-blur-md sm:block">
-              <p className="eyebrow text-[#efbd5c]">Family-run</p>
-              <p className="mt-3 text-xs leading-5 text-[#dedad3]">Grounded in Kenya.<br />Built on care.</p>
+              <p className="eyebrow text-[#efbd5c]">Kenya-grounded</p>
+              <p className="mt-3 text-xs leading-5 text-[#dedad3]">Local eyes on the ground.<br />Built on care.</p>
             </div>
             <div className="image-sheen relative aspect-[.82] overflow-hidden rounded-[10rem_10rem_1rem_1rem] border border-white/15 bg-[#5b5566]">
               <img src="/images/nairobi-courtyard.jpg" alt="Sunlit courtyard at a modern Nairobi apartment" className="h-full w-full object-cover opacity-85 mix-blend-luminosity" />
@@ -321,11 +321,11 @@ function Home() {
               <p className="eyebrow text-[#a66743]">Our story / 03</p>
               <h2 className="mt-5 max-w-2xl font-display text-5xl leading-[.95] tracking-[-.05em] sm:text-7xl">Because a home is never just a line on a spreadsheet.</h2>
               <div className="mt-8 grid gap-8 sm:grid-cols-[1fr_1fr]">
-                <p className="text-sm leading-7 text-[#696775]">Geostep Engineers Limited began as a family business with a practical instinct: create things that last and look after them properly. Geostep Property brings that same care to the homes and rentals we manage.</p>
+                <p className="text-sm leading-7 text-[#696775]">Geostep Engineers Limited began with a practical instinct: create things that last and look after them properly. Geostep Realty brings that same care to the homes and rentals we manage.</p>
                 <p className="text-sm leading-7 text-[#696775]">We are starting small and staying close to the work — building a thoughtful property portfolio across Nairobi and the coast. We notice the leaking tap before it becomes a ceiling. We answer the message.</p>
               </div>
               <div className="mt-10 flex items-center gap-8 border-t border-[#d9d0c2] pt-6">
-                <div><p className="font-display text-4xl">1</p><p className="eyebrow mt-1 text-[#a66743]">family business</p></div>
+                <div><p className="font-display text-4xl">1</p><p className="eyebrow mt-1 text-[#a66743]">clear point of contact</p></div>
                 <div><p className="font-display text-4xl">2</p><p className="eyebrow mt-1 text-[#a66743]">markets to start</p></div>
                 <span className="ml-auto hidden size-12 place-items-center rounded-full border border-[#a66743]/40 text-[#a66743] sm:grid"><Sparkles size={18} /></span>
               </div>
@@ -360,7 +360,7 @@ function Home() {
           <div className="mx-auto max-w-[1240px]">
             <Reveal className="grid gap-8 lg:grid-cols-[1fr_1.7fr] lg:items-end">
               <p className="eyebrow text-[#a66743]">A few kind words / 05</p>
-              <blockquote className="font-display text-4xl leading-[1.05] tracking-[-.035em] sm:text-5xl">“Geostep Property made owning a home from abroad feel surprisingly close. I knew what was happening, and why.”</blockquote>
+              <blockquote className="font-display text-4xl leading-[1.05] tracking-[-.035em] sm:text-5xl">“Geostep Realty made owning a home from abroad feel surprisingly close. I knew what was happening, and why.”</blockquote>
             </Reveal>
             <Reveal className="mt-8 flex items-center justify-between border-t border-[#d9d0c2] pt-5" delay={100}>
               <div><p className="text-sm font-bold">Amina K.</p><p className="mt-1 text-xs text-[#696775]">Property owner, Kilimani</p></div>
@@ -378,7 +378,7 @@ function Home() {
               <div className="mt-12 space-y-5 border-t border-white/15 pt-6">
                 <a href="mailto:hello@geostep.example" className="flex items-center gap-4 text-sm text-[#d8d4cc] hover:text-[#efbd5c]" data-testid="link-email"><span className="grid size-9 place-items-center rounded-full border border-white/15 text-[#efbd5c]"><Mail size={15} /></span>hello@geostep.example <span className="font-mono text-[.55rem] text-[#85848e]">(replace with your email)</span></a>
                 <a href="tel:+254700000000" className="flex items-center gap-4 text-sm text-[#d8d4cc] hover:text-[#efbd5c]" data-testid="link-phone"><span className="grid size-9 place-items-center rounded-full border border-white/15 text-[#efbd5c]"><Phone size={15} /></span>+254 700 000 000 <span className="font-mono text-[.55rem] text-[#85848e]">(placeholder)</span></a>
-                <a href="https://wa.me/254700000000?text=Hello%20Geostep%20Property%2C%20I%27d%20like%20to%20ask%20about%20a%20property." target="_blank" rel="noreferrer" className="flex items-center gap-4 text-sm text-[#d8d4cc] hover:text-[#efbd5c]" data-testid="link-whatsapp"><span className="grid size-9 place-items-center rounded-full border border-white/15 text-[#efbd5c]"><MessageCircle size={15} /></span>WhatsApp us <span className="font-mono text-[.55rem] text-[#85848e]">(placeholder)</span></a>
+                <a href="https://wa.me/254700000000?text=Hello%20Geostep%20Realty%2C%20I%27d%20like%20to%20ask%20about%20a%20property." target="_blank" rel="noreferrer" className="flex items-center gap-4 text-sm text-[#d8d4cc] hover:text-[#efbd5c]" data-testid="link-whatsapp"><span className="grid size-9 place-items-center rounded-full border border-white/15 text-[#efbd5c]"><MessageCircle size={15} /></span>WhatsApp us <span className="font-mono text-[.55rem] text-[#85848e]">(placeholder)</span></a>
               </div>
               <p className="mt-10 flex items-center gap-2 font-mono text-[.6rem] uppercase tracking-[.13em] text-[#85848e]"><MapPin size={13} className="text-[#efbd5c]" />Nairobi · Kenya / EAT</p>
             </Reveal>
@@ -420,7 +420,7 @@ function Home() {
             <div><BrandMark dark /><p className="mt-5 max-w-xs text-xs leading-5 text-[#85848e]">A small, attentive property partner for Nairobi and the coast.</p></div>
             <div className="flex gap-6 text-xs text-[#aaa8ad]"><a href="#homes" className="hover:text-[#efbd5c]" data-testid="link-footer-homes">Homes</a><a href="#owners" className="hover:text-[#efbd5c]" data-testid="link-footer-owners">Owners</a><a href="#contact" className="hover:text-[#efbd5c]" data-testid="link-footer-contact">Contact</a></div>
           </div>
-          <div className="mt-10 flex flex-col justify-between gap-3 border-t border-white/10 pt-5 font-mono text-[.58rem] uppercase tracking-[.13em] text-[#6f6e7a] sm:flex-row"><span>© 2026 Geostep Property · Geostep Engineers Limited</span><span>Made with care in Kenya</span></div>
+          <div className="mt-10 flex flex-col justify-between gap-3 border-t border-white/10 pt-5 font-mono text-[.58rem] uppercase tracking-[.13em] text-[#6f6e7a] sm:flex-row"><span>© 2026 Geostep Realty · Geostep Engineers Limited</span><span>Made with care in Kenya</span></div>
         </div>
       </footer>
 
@@ -431,7 +431,7 @@ function Home() {
             <div className="image-sheen h-56 overflow-hidden rounded-xl bg-[#d8c9b9] sm:h-64"><img src={activeListing.image} alt={`${activeListing.title} detail`} className="h-full w-full object-cover" /></div>
             <p className="eyebrow mt-6 text-[#a66743]">{activeListing.area} / {activeListing.type}</p>
             <h3 className="mt-3 font-display text-4xl leading-none">{activeListing.title}</h3>
-            <p className="mt-4 text-sm leading-6 text-[#696775]">{activeListing.detail} This is an example listing for the Geostep Property portfolio; ask us for current availability and similar homes.</p>
+            <p className="mt-4 text-sm leading-6 text-[#696775]">{activeListing.detail} This is an example listing for the Geostep Realty portfolio; ask us for current availability and similar homes.</p>
             <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-[#ddd5c8] pt-5"><span className="text-sm font-extrabold">{activeListing.price}</span><a href="#contact" onClick={() => setActiveListing(null)} className="inline-flex items-center gap-2 rounded-full bg-[#25283d] px-5 py-3 text-xs font-bold uppercase tracking-[.08em] text-[#f9f5eb]" data-testid={`link-enquire-${activeListing.id}`}>Enquire about this home <ArrowUpRight size={14} className="text-[#efbd5c]" /></a></div>
           </div>
         </div>
